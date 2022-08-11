@@ -1,13 +1,69 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+		"Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+.card {
+	padding: 2rem;
+	background-color: #51557e;
+	border-radius: 20px;
+}
+
+#class-component,
+#functional-component {
+	position: absolute;
+	color: #a5c9ca;
+}
+
+#class-component {
+	left: 30px;
+	top: 30px;
+	z-index: 3;
+}
+
+#functional-component {
+	right: 30px;
+	bottom: 30px;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.d-flex.flex-row {
+	flex-direction: row;
+}
+
+.d-flex.flex-column {
+	flex-direction: column;
+}
+
+.d-flex.justify-content-center {
+	justify-content: center;
+}
+
+.d-flex.align-items-center {
+	align-items: center;
+}
+
+.d-flex.gap-3 {
+	gap: 1rem;
+}
+
+.btn {
+	width: 50px;
+	height: 50px;
+	border: none;
+	border-radius: 50%;
+	cursor: pointer;
+	font-size: 2rem;
 }
