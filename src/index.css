@@ -1,69 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body {
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
-		"Helvetica Neue", sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	font-family: "Poppins", sans-serif;
+	color: #787A91;
 }
 
-code {
-	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-		monospace;
+.bold {
+	font-weight: 700;
 }
 
-.card {
-	padding: 2rem;
-	background-color: #51557e;
-	border-radius: 20px;
+.text-white {
+	color: #fff;
 }
 
-#class-component,
-#functional-component {
-	position: absolute;
-	color: #a5c9ca;
+.text-blue {
+    color: #1C3879;
 }
 
-#class-component {
-	left: 30px;
-	top: 30px;
-	z-index: 3;
+.text-justify {
+    text-align: justify;
 }
 
-#functional-component {
-	right: 30px;
-	bottom: 30px;
+.button-blue {
+    border: 1px solid #1C3879;
+    color: #1C3879;
+    background-color: #fff;
 }
 
-.d-flex {
-	display: flex;
+.button-blue:hover {
+    background-color: #1C3879;
+    color: #fff;
 }
 
-.d-flex.flex-row {
-	flex-direction: row;
-}
-
-.d-flex.flex-column {
-	flex-direction: column;
-}
-
-.d-flex.justify-content-center {
-	justify-content: center;
-}
-
-.d-flex.align-items-center {
-	align-items: center;
-}
-
-.d-flex.gap-3 {
-	gap: 1rem;
-}
-
-.btn {
-	width: 50px;
-	height: 50px;
-	border: none;
-	border-radius: 50%;
-	cursor: pointer;
-	font-size: 2rem;
+footer {
+    background-color: #172b33;
 }

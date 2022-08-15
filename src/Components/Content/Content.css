@@ -1,0 +1,9 @@
+.table {
+    color: #787A91;
+}
+
+table tr td, table tr th{
+    border:none;
+    padding: 1rem;
+    padding-left: 0;
+}
