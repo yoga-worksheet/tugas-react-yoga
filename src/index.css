@@ -18,6 +18,10 @@ body {
     color: #1C3879;
 }
 
+.text-red {
+    color: #e92b2b;
+}
+
 .text-justify {
     text-align: justify;
 }
@@ -31,6 +35,18 @@ body {
 .button-blue:hover {
     background-color: #1C3879;
     color: #fff;
+}
+
+.button-blue-reverse {
+    border: 1px solid #1C3879;
+    color: #fff;
+    background-color: #1C3879;
+}
+
+.button-blue-reverse:hover {
+    border: 1px solid #1C3879;
+    background-color: #fff;
+    color: #1C3879;
 }
 
 footer {
