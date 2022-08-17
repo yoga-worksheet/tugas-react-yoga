@@ -1,5 +1,6 @@
 const validate = (data) => {
 	let message = [];
+	//eslint-disable-next-line
     const emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
 	if (data.name === "") {

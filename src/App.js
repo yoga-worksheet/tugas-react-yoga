@@ -1,9 +1,9 @@
-import Register from "./Register/Index";
+import News from "./News/Index";
 
 function App() {
 	return (
 		<>
-			<Register />
+			<News />
 		</>
 	);
 }
