@@ -1,9 +1,9 @@
-import News from "./News/Index";
+import { Hooks } from "./Hooks/Index";
 
 function App() {
 	return (
 		<>
-			<News />
+			<Hooks />
 		</>
 	);
 }
