@@ -1,9 +1,9 @@
-import { Hooks } from "./Hooks/Index";
+import Routing from "./Routing/Routing";
 
 function App() {
 	return (
 		<>
-			<Hooks />
+			<Routing />
 		</>
 	);
 }

@@ -53,6 +53,7 @@ export const Hooks = () => {
 			setIsCategory(false);
 			setNews([]);
 		};
+		// eslint-disable-next-line
 	}, [query]);
 
 	const categoryButtonHandler = (keyword) => {
@@ -69,10 +70,7 @@ export const Hooks = () => {
 			<Header onClick={categoryButtonHandler} />
 			<TitleBar text={query} onSubmit={submitHandler} />
 			{isLoading ? <Loader /> : ""}
-			<CardList
-					newsData={news}
-					isLoading={isLoading}
-				/>
+			<CardList newsData={news} isLoading={isLoading} />
 			<Footer />
 		</>
 	);
