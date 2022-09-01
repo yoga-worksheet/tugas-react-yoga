@@ -7,7 +7,8 @@ import App from "./App";
 import Register from "./Register/Index";
 import { Hooks } from "./Hooks/Index";
 import Biodata from "./Biodata/Biodata";
-import Index from "./Routing/Index"
+import Index from "./Routing/Index";
+import Redux from "./Redux/Redux"
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -16,10 +17,11 @@ root.render(
 		<BrowserRouter>
 			<Routes>
 				<Route path="/" element={<App />}>
-          <Route index element={<Index/>} />
+					<Route index element={<Index />} />
 					<Route path="biodata" element={<Biodata />} />
 					<Route path="news" element={<Hooks />} />
 					<Route path="register" element={<Register />} />
+					<Route path="redux" element={<Redux />} />
 				</Route>
 			</Routes>
 		</BrowserRouter>

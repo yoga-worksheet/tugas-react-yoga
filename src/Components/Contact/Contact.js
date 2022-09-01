@@ -5,9 +5,9 @@ export default class Contact extends Component {
 	render() {
 		return (
 			<Container id="contact" className="my-5">
-				<div class="d-flex justify-content-center justify-content-md-end">
+				<div className="d-flex justify-content-center justify-content-md-end">
 					<Form>
-						<h5 class="text-blue bold mb-3">Contact Me</h5>
+						<h5 className="text-blue bold mb-3">Contact Me</h5>
 						<Form.Label htmlFor="email">Email</Form.Label>
 						<Form.Control
 							className="mb-3"

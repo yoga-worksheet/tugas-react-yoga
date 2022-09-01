@@ -41,6 +41,15 @@ const Routing = () => {
 							>
 								Register
 							</NavLink>
+							<NavLink
+								to="redux"
+								className="nav-link"
+								style={({ isActive }) =>
+									isActive ? activeStyle : undefined
+								}
+							>
+								Redux
+							</NavLink>
 						</Nav>
 					</Navbar.Collapse>
 				</Container>
